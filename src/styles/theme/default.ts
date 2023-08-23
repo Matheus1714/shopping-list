@@ -1,5 +1,7 @@
 export const defaultTheme = {
   colors: {
+    background: '#1E1E1E',
+
     purpleLight: '#A881E6',
     purple: '#7450AC',
     purpleDark: '#523480',

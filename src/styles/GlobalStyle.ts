@@ -7,6 +7,13 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body{
+    background: ${(props) => props.theme.colors.background};
+
     font-family: 'Inter', sans-serif;
+    color: ${(props) => props.theme.colors.gray100};
+    font-weight: 700;
+    font-size: 0.875rem;
+
+    -webkit-font-smoothing: antialiased;
   }
 `

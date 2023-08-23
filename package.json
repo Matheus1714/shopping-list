@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@types/uuid": "^9.0.2",
     "lucide-react": "^0.268.0",
     "react": "^18.2.0",
     "react-datalist-input": "^3.2.1",
@@ -19,6 +18,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.2",
     "@rocketseat/eslint-config": "^2.1.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
