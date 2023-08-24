@@ -1,11 +1,13 @@
+import { InputItem } from '../InputItem'
+import { InputQuantity } from '../InputQuantity'
 import * as S from './styles'
 
 export function Form() {
   return (
     <S.Container>
-      <S.InputItem type="text" />
-      <S.InputQuantity type="number" />
-      <S.InputCategory type="text" />
+      <InputItem />
+      <InputQuantity />
+      <S.InputCategory />
       <S.ButtonAddItem type="submit" />
     </S.Container>
   )

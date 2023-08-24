@@ -10,15 +10,7 @@ export const Container = styled.div`
     'quantity category add';
 `
 
-export const InputItem = styled.input`
-  grid-area: item;
-`
-
-export const InputQuantity = styled.input`
-  grid-area: quantity;
-`
-
-export const InputCategory = styled.input`
+export const InputCategory = styled.div`
   grid-area: category;
 `
 
