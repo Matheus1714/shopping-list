@@ -16,4 +16,10 @@ export const GlobalStyle = createGlobalStyle`
 
     -webkit-font-smoothing: antialiased;
   }
+  label{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: ${(props) => props.theme.colors.gray200};
+  }
+
 `
